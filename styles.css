@@ -1,6 +1,4 @@
-
-/* Your CSS Code here. */
-        .container {
+   .container {
             border: 5px solid rgb(4, 255, 4);
             background-color: rgb(41, 0, 0);
             max-width: 600px;
@@ -18,3 +16,8 @@
         .row:nth-child(2) .col:last-child { background-color: turquoise; }
         .row:last-child .col:first-child { background-color: violet; }
         .row:last-child .col:last-child { background-color: yellowgreen; }
+        
+        /* Ensure elements are always visible */
+        .r1c1, .r2c1, .r3c1 {
+            display: block !important;
+        }
